@@ -1,10 +1,6 @@
 /*------------------------------------------------------------
   Base Style
 ------------------------------------------------------------*/
-*{
-    border: 1px solid red;
-}
-
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -420,7 +416,7 @@ h6 {
 }
 
 h1, h2, h3 {
-    letter-spacing: -.1rem;
+    /*letter-spacing: -.1rem;*/
 }
 
 h1 {
@@ -458,7 +454,7 @@ h6 {
 
 @media (min-width: 550px) {
     h1 {
-        font-size: 5.0rem;
+        font-size: 5rem;
     }
 
     h2 {
@@ -466,11 +462,11 @@ h6 {
     }
 
     h3 {
-        font-size: 3.6rem;
+        font-size: 3rem;
     }
 
     h4 {
-        font-size: 3.0rem;
+        font-size: 3rem;
     }
 
     h5 {
@@ -580,17 +576,16 @@ CUSTOM STYLING
     margin-right: 10%;
     padding: 8%;
     text-align: left;
-"
 }
 
 .contentMain {
     width: 100%;
-    max-width: 100%;
     background-color: white;
     font-family: 'Dosis', sans-serif;
     font-size: 30px;
     text-align: left;
     overflow: hidden;
+    padding: 10px;
 }
 
 .contentMain p {
@@ -598,19 +593,23 @@ CUSTOM STYLING
 }
 
 nav {
-    width: 100%;
     font-family: 'Pacifico', cursive;
     display: inline-flex;
     background-color: black;
     color: white;
     margin-bottom: -1px !important;
-    padding-left: 1%;
-    padding-right: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+footer nav h3{
+    text-align: center;
+    margin-right: 6%;
+    margin-left: 3%;
 }
 
 footer {
     bottom: 0;
-    min-width: 100%;
 }
 
 #nextSide {
